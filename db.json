@@ -1,5 +1,137 @@
 {
-  "users": [],
-  "filters": [],
-  "favorites": []
+  "users": [
+    {
+      "email": "demo@paperflow.com",
+      "password": "$2a$10$FF8Imou8HFo25GW4t/pZ2.YjUunEKl08VHA/Q8g1Z/Z6IgEMDvkV2",
+      "displayName": "Demo",
+      "id": 1
+    }
+  ],
+  "filters": [
+    {
+      "name": "mobile robot Reinforcement Learning",
+      "keywords": [
+        "reinforcement learning",
+        "mobile robots",
+        "navigation with obstacles"
+      ],
+      "categories": [
+        "cs.RO"
+      ],
+      "source": "arxiv",
+      "isActive": true,
+      "maxResults": 25,
+      "dateFrom": null,
+      "dateUntil": null,
+      "userId": 1,
+      "createdAt": "2026-02-28T20:59:55.355Z",
+      "id": 1,
+      "updatedAt": "2026-03-02T21:51:37.572Z"
+    },
+    {
+      "name": "Maschine learning",
+      "keywords": [
+        "maschine learning"
+      ],
+      "categories": [
+        "stat.ML"
+      ],
+      "source": "arxiv",
+      "isActive": false,
+      "maxResults": 25,
+      "dateFrom": null,
+      "dateUntil": null,
+      "userId": 1,
+      "createdAt": "2026-03-01T21:24:29.051Z",
+      "id": 2,
+      "updatedAt": "2026-03-01T21:34:20.843Z"
+    }
+  ],
+  "favorites": [
+    {
+      "paperId": "2602.23115v1",
+      "source": "arxiv",
+      "title": "FLIGHT: Fibonacci Lattice-based Inference for Geometric Heading in real-Time",
+      "authors": [
+        "David Dirnfeld",
+        "Fabien Delattre",
+        "Pedro Miraldo",
+        "Erik Learned-Miller"
+      ],
+      "abstract": "Estimating camera motion from monocular video is a fundamental problem in computer vision, central to tasks such as SLAM, visual odometry, and structure-from-motion. Existing methods that recover the camera's heading under known rotation, whether from an IMU or an optimization algorithm, tend to perform well in low-noise, low-outlier conditions, but often decrease in accuracy or become computationally expensive as noise and outlier levels increase. To address these limitations, we propose a novel generalization of the Hough transform on the unit sphere (S(2)) to estimate the camera's heading. First, the method extracts correspondences between two frames and generates a great circle of directions compatible with each pair of correspondences. Then, by discretizing the unit sphere using a Fibonacci lattice as bin centers, each great circle casts votes for a range of directions, ensuring that features unaffected by noise or dynamic objects vote consistently for the correct motion direction. Experimental results on three datasets demonstrate that the proposed method is on the Pareto frontier of accuracy versus efficiency. Additionally, experiments on SLAM show that the proposed method reduces RMSE by correcting the heading during camera pose initialization.",
+      "categories": [
+        "cs.CV",
+        "cs.CG",
+        "cs.RO"
+      ],
+      "publishedDate": "2026-02-26T15:27:49Z",
+      "pdfUrl": "https://arxiv.org/pdf/2602.23115v1",
+      "userId": 1,
+      "savedAt": "2026-02-28T20:42:11.000Z",
+      "id": 1
+    },
+    {
+      "paperId": "2507.02910v1",
+      "source": "arxiv",
+      "title": "Causal-Paced Deep Reinforcement Learning",
+      "authors": [
+        "Geonwoo Cho",
+        "Jaegyun Im",
+        "Doyoon Kim",
+        "Sundong Kim"
+      ],
+      "abstract": "Designing effective task sequences is crucial for curriculum reinforcement learning (CRL), where agents must gradually acquire skills by training on intermediate tasks. A key challenge in CRL is to identify tasks that promote exploration, yet are similar enough to support effective transfer. While recent approach suggests comparing tasks via their Structural Causal Models (SCMs), the method requires access to ground-truth causal structures, an unrealistic assumption in most RL settings. In this work, we propose Causal-Paced Deep Reinforcement Learning (CP-DRL), a curriculum learning framework aware of SCM differences between tasks based on interaction data approximation. This signal captures task novelty, which we combine with the agent's learnability, measured by reward gain, to form a unified objective. Empirically, CP-DRL outperforms existing curriculum methods on the Point Mass benchmark, achieving faster convergence and higher returns. CP-DRL demonstrates reduced variance with comparable final returns in the Bipedal Walker-Trivial setting, and achieves the highest average performance in the Infeasible variant. These results indicate that leveraging causal relationships between tasks can improve the structure-awareness and sample efficiency of curriculum reinforcement learning. We provide the full implementation of CP-DRL to facilitate the reproduction of our main results at https://github.com/Cho-Geonwoo/CP-DRL.",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "stat.ML"
+      ],
+      "publishedDate": "2025-06-24T20:15:01Z",
+      "pdfUrl": "https://arxiv.org/pdf/2507.02910v1",
+      "userId": 1,
+      "savedAt": "2026-02-28T21:24:57.281Z",
+      "id": 3
+    },
+    {
+      "paperId": "2602.23023v1",
+      "source": "arxiv",
+      "title": "Low-degree Lower bounds for clustering in moderate dimension",
+      "authors": [
+        "Alexandra Carpentier",
+        "Nicolas Verzelen"
+      ],
+      "abstract": "We study the fundamental problem of clustering $n$ points into $K$ groups drawn from a mixture of isotropic Gaussians in $\\mathbb{R}^d$. Specifically, we investigate the requisite minimal distance $Δ$ between mean vectors to partially recover the underlying partition. While the minimax-optimal threshold for $Δ$ is well-established, a significant gap exists between this information-theoretic limit and the performance of known polynomial-time procedures. Although this gap was recently characterized in the high-dimensional regime ($n \\leq dK$), it remains largely unexplored in the moderate-dimensional regime ($n \\geq dK$). In this manuscript, we address this regime by establishing a new low-degree polynomial lower bound for the moderate-dimensional case when $d \\geq K$. We show that while the difficulty of clustering for $n \\leq dK$ is primarily driven by dimension reduction and spectral methods, the moderate-dimensional regime involves more delicate phenomena leading to a \"non-parametric rate\". We provide a novel non-spectral algorithm matching this rate, shedding new light on the computational limits of the clustering problem in moderate dimension.",
+      "categories": [
+        "math.ST",
+        "cs.LG",
+        "math.PR",
+        "stat.ML"
+      ],
+      "publishedDate": "2026-02-26T14:03:55Z",
+      "pdfUrl": "https://arxiv.org/pdf/2602.23023v1",
+      "userId": 1,
+      "savedAt": "2026-03-01T08:38:50.863Z",
+      "id": 4
+    },
+    {
+      "paperId": "2602.22884v1",
+      "source": "arxiv",
+      "title": "Unsupervised Continual Learning for Amortized Bayesian Inference",
+      "authors": [
+        "Aayush Mishra",
+        "Šimon Kucharský",
+        "Paul-Christian Bürkner"
+      ],
+      "abstract": "Amortized Bayesian Inference (ABI) enables efficient posterior estimation using generative neural networks trained on simulated data, but often suffers from performance degradation under model misspecification. While self-consistency (SC) training on unlabeled empirical data can enhance network robustness, current approaches are limited to static, single-task settings and fail to handle sequentially arriving data or distribution shifts. We propose a continual learning framework for ABI that decouples simulation-based pre-training from unsupervised sequential SC fine-tuning on real-world data. To address the challenge of catastrophic forgetting, we introduce two adaptation strategies: (1) SC with episodic replay, utilizing a memory buffer of past observations, and (2) SC with elastic weight consolidation, which regularizes updates to preserve task-critical parameters. Across three diverse case studies, our methods significantly mitigate forgetting and yield posterior estimates that outperform standard simulation-based training, achieving estimates closer to MCMC reference, providing a viable path for trustworthy ABI across a range of different tasks.",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "publishedDate": "2026-02-26T11:22:46Z",
+      "pdfUrl": "https://arxiv.org/pdf/2602.22884v1",
+      "userId": 1,
+      "savedAt": "2026-03-01T21:25:54.713Z",
+      "id": 5
+    }
+  ]
 }
