@@ -37,14 +37,14 @@
         "stat.ML"
       ],
       "source": "arxiv",
-      "isActive": false,
+      "isActive": true,
       "maxResults": 25,
       "dateFrom": null,
       "dateUntil": null,
       "userId": 1,
       "createdAt": "2026-03-01T21:24:29.051Z",
       "id": 2,
-      "updatedAt": "2026-03-01T21:34:20.843Z"
+      "updatedAt": "2026-03-02T22:25:34.319Z"
     }
   ],
   "favorites": [
